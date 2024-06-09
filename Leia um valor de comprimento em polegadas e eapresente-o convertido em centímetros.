@@ -1,0 +1,6 @@
+# 16 - Leia um valor de comprimento em polegadas e eapresente-o convertido em centímetros.
+# A fórmula de conversão é: C = P * 2.54, sendo C o comprimento em centímetros e P p comprimento em polegadas
+
+p = float(input('Informe o comprimento em polegadas: '))
+c = p * 2.54
+print(f'O comprimento informado em Centímentros é: {c}')
